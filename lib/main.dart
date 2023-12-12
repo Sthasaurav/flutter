@@ -1,10 +1,27 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  // const MyApp({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(appBar:Text('home'));
+    
+    int Days = 26;
+    String language = "javascript";
+    String language1 = "dart";
+
+    return MaterialApp(
+      home: Material(
+        child: Center(
+          child: Container(
+            child: Text("Welcome to $Days days of $language and " + language1),
+          ),
+        ),
+      ),
+    );
   }
 }
