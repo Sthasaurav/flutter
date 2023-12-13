@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  int Days = 26;
+  int Days = 30;
   String language = "javascript";
   String language1 = "dart";
 
