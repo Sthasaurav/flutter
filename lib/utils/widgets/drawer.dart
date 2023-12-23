@@ -7,12 +7,14 @@ class MyDrawer extends StatelessWidget {
     final imageUrl =
         "https://thumbs.dreamstime.com/b/red-apple-isolated-clipping-path-19130134.jpg";
     return Drawer(
+      
       child: Container(
         color: Colors.deepPurple, 
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
             DrawerHeader(
+              
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
                 margin: EdgeInsets.zero,
