@@ -114,13 +114,24 @@ class _LoginPageState extends State<LoginPage> {
                                   BorderRadius.circular(changeButton ? 40 : 4),
                             ),
                           )),
-                      ElevatedButton(
-                        child: Text("Login"),
-                        style: TextButton.styleFrom(minimumSize: Size(150, 40)),
-                        onPressed: () {
-                          Navigator.pushNamed(context, MyRoutes.homeRoutes);
-                        },
-                      )
+
+                      const SizedBox(
+                        height: 40.0,
+                      ),
+
+                      InkWell(
+                        onTap: () => moveToHome(context),
+                        child: Text('Forgot Password?',
+                            style: TextStyle(color: Colors.blue)),
+                      ),
+
+                      // ElevatedButton(
+                      //   child: Text("Login"),
+                      //   style: TextButton.styleFrom(minimumSize: Size(150, 40)),
+                      //   onPressed: () {
+                      //     Navigator.pushNamed(context, MyRoutes.homeRoutes);
+                      //   },
+                      // )
                     ],
                   ),
                 )
