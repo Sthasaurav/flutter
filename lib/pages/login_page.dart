@@ -3,7 +3,7 @@ import 'package:flutter_application_1/utils/routes.dart';
 // import 'package:flutter_catalog/utils/routes.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+  // const LoginPage({super.key});
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -21,7 +21,7 @@ class _LoginPageState extends State<LoginPage> {
         changeButton = true;
       });
       await Future.delayed(Duration(seconds: 1, milliseconds: 7));
-      
+
       Navigator.pushNamed(context, MyRoutes.homeRoutes);
     }
     ;

@@ -21,9 +21,9 @@ class HomePage extends StatelessWidget {
         ),
       ),
       drawer: MyDrawer(),
-      bottomNavigationBar: MyBottomNavigator(
-        items: [],
-      ),
+      // bottomNavigationBar: MyBottomNavigator(
+      //   items:  [],
+      // ),
       //   bottomNavigationBar: BottomNavigationBar(
       //       currentIndex: 0,
       //       fixedColor: Colors.deepPurple,
