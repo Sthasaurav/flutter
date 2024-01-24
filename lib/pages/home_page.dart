@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_application_1/utils/widgets/bottomNavigator.dart';
-// import 'package:flutter_application_1/utils/widgets/bottomNavigator.dart';
 import 'package:flutter_application_1/utils/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
