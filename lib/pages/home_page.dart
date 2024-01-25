@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/utils/widgets/carousel.dart';
 // import 'package:flutter_application_1/utils/widgets/bottomNavigator.dart';
 import 'package:flutter_application_1/utils/widgets/drawer.dart';
 
@@ -14,12 +15,15 @@ class HomePage extends StatelessWidget {
         title: Text("Car rental app"),
         backgroundColor: Colors.deepPurple,
       ),
-      body: Center(
-        child: Container(
-          child: Text("Welcome to $Days days of $language and " + language1),
-        ),
-      ),
+      body: Center(child: SliderScreen()
+
+          // child: Container(
+          //   child: Text("Welcome to $Days days of $language and " + language1),
+          // ),
+          ),
+
       drawer: MyDrawer(),
+
       // bottomNavigationBar: MyBottomNavigator(
       //   items: [],
       // ),
